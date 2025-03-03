@@ -1,6 +1,6 @@
 {
-  "name": "@workspace/ui-submodule",
-  "version": "0.0.0",
+  "name": "git-submodule-test",
+  "version": "0.0.1",
   "type": "module",
   "private": true,
   "scripts": {
