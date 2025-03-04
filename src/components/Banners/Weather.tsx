@@ -20,7 +20,7 @@ export default async function Weather () {
   }
 
   return (
-    <div className="p-4 bg-blue-200 rounded-lg">
+    <div className="p-4 bg-blue-200 rounded-lg border-2" >
       <h2 className="text-xl font-semibold mb-2">Weather</h2>
       <p>Location: {weather.location}</p>
       <p>Temperature: {weather.temperature}°C</p>

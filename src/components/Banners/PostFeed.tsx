@@ -24,11 +24,11 @@ export default async function PostFeed () {
     }
 
   return (
-    <div>
+    <div className="p-4 bg-blue-200 rounded-lg border-2">
       <h2 className="text-xl font-semibold mb-2">Posts</h2>
       <ul>
         {posts?.map((post) => (
-          <li key={post.id} className="mb-4 p-4 bg-gray-200 rounded-lg">
+          <li key={post.id} className="mb-4 p-4 bg-gray-200 rounded-lg border">
             <h3 className="text-lg font-bold">{post.title}</h3>
             <p>{post.content}</p>
           </li>
