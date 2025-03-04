@@ -12,9 +12,9 @@ const Banners: React.FC = () => {
 
   return (
     <div>
-      <h3 className="text-lg">Client component status: {status}</h3>
+      <h3 className="text-lg text-red-700">Client component status: {status} </h3>
       <div className="flex">
-        <img src="https://placehold.co/200x150?text=First\nimage" width='200' height='150' alt="First Image" />
+        <img src="https://placehold.co/200x150?text=Turborepo\nimage" width='200' height='150' alt="First Image" />
       </div>
       
     </div>
