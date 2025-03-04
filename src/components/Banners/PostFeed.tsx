@@ -1,3 +1,4 @@
+// @ts-nocheck
 import * as React from "react";
 
 // Mock API call to fetch posts

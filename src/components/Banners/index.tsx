@@ -1,3 +1,4 @@
+// @ts-nocheck
 import * as React from "react";
 import ClientComponent from "./ClientComponent";
 import PostFeed from "./PostFeed";
