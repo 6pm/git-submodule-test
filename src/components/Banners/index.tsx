@@ -9,7 +9,7 @@ export default function BannersServerComponent() {
     <div className="p-4">
       <h3>Some server side text</h3>
       <p>
-        Server server server server server server server. Release 2 
+        Server server server server server server server. Release 3 test 
       </p>
 
       <section>
